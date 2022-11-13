@@ -56,7 +56,7 @@ When sneaking, opens previous page rather than the next.
 
 ### Certain crops from the addon are immediately supplanted after being planted on farmland
 
-### Issue
+#### Issue
 
 When planting a tomato, lettuce or tea crop on farmland, the farmland immediately becomes dirt and the crop reverts to become the seed item
 
@@ -64,7 +64,7 @@ When planting a tomato, lettuce or tea crop on farmland, the farmland immediatel
 
 Add "minecraft:breathability":"air" line for the block definition files of these three crops. The supplanting happens because the farmland thinks the crop that was just placed on it was a solid block, and the farmland becomes dirt as is expected in vanilla minecraft. If the crop block is counted as transparent or 'air', this issue is resolved.
 
-### Added features
+#### Added features
 
 Sound effect when harvesting the crop with 'interact' button just like the tomato crop
 
