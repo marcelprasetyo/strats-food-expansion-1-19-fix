@@ -1,10 +1,14 @@
 Temporary fix for Strat's Food Expansion Addon v1.5 Drinks Update, for Minecraft Bedrock 1.19
 
+This fix works for Bedrock Server as well as for singleplayer. Tested working on Minecraft Bedrock 1.19.40
+
 Fixes Cook Book not working and some crops unable to be planted. Includes a few minor quality of life improvements for the items being fixed, as detailed below.
 
 ## How to install
 
-First, download this repo. If you do not use GitHub, click the green button named "Code" above (top-right) and then click Download ZIP.
+First, download this repo. If you do not use GitHub, click the green button named "Code" above (top-right) and then click Download ZIP. 
+
+Alternatively, check the latest Release on the right (under Releases) and download the .zip file. (Note: This doesn't contain the addon but only the fix.)
 
 Then, see the instructions below for different cases.
 (In case you make some unintentional mistakes, or there is a bug which corrupts the world, feel free to backup your world first.)
