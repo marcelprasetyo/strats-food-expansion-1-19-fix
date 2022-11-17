@@ -4,7 +4,9 @@ Fixes Cook Book not working and some crops unable to be planted. Includes a few 
 
 ## How to install
 
-Below are the instructions for different cases.
+First, download this repo. If you do not use GitHub, click the green button named "Code" above (top-right) and then click Download ZIP.
+
+Then, see the instructions below for different cases.
 (In case you make some unintentional mistakes, or there is a bug which corrupts the world, feel free to backup your world first.)
 
 ### Addon already installed for a specific world
