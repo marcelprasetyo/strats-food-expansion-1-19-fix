@@ -4,17 +4,22 @@ Fixes Cook Book not working and some crops unable to be planted. Includes a few 
 
 ## How to install
 
+Below are the instructions for different cases.
+(In case you make some unintentional mistakes, or there is a bug which corrupts the world, feel free to backup your world first.)
+
 ### Addon already installed for a specific world
 
 1. Copy the folder "behavior_packs" from this repo
 
 2. Open the directory where your minecraft worlds are saved, and navigate inside the folder of your desired minecraft world (sometimes the world folder name is obfuscated, try to see the timestamp of the files inside to find out your most recently played world)
 
-3. Paste the folder copied in number 1 there, so that the copied folder merges with "behavior_packs" in number 2 and click Yes to overwrite prompt
+3. Paste the folder copied in step 1 there, so that the copied folder merges with "behavior_packs" in step 2 and click Yes to overwrite prompt
 
 4. Restart the server if you are using a server
 
 ### Addon already installed globally / world behavior_packs folder empty
+
+If the above didn't fix the problem, probably your world does not save the behavior packs under its own folder, but under the root Minecaft folder.
 
 1. Navigate to the root directory of your minecraft installation / server directory and check that "behavior_packs" folder is there
 
@@ -28,13 +33,13 @@ Fixes Cook Book not working and some crops unable to be planted. Includes a few 
 
 2. Inside the BP or behaviourpack folder of the unzipped folder, there will be folders named "blocks" and "items"
 
-3. Copy the "blocks" and "items" folders from this repo, under "behavior_packs/Strat'sFoo" and paste it in the directory in number 2, click Yes to overwrite
+3. Copy the "blocks" and "items" folders from this repo, under "behavior_packs/Strat'sFoo" and paste it in the directory in step 2, click Yes to overwrite
 
 4. Zip the topmost folders back and rename the file extension into .mcaddon again
 
-5. Delete the addon folder named "Strat'sFoo" or similar inside your world folder or root folder. 
+5. If you have never installed the addon before, skip this step. Otherwise, delete the addon folder named "Strat'sFoo" or similar which are placed *inside* your world folder or root folder's behavior_packs and resource_packs folders, if you have installed the addon before.
 
-6. Reinstall the edited .mcaddon file
+6. Install/reinstall the edited .mcaddon file
 
 ## Fixes
 
@@ -66,7 +71,7 @@ Add "minecraft:breathability":"air" line for the block definition files of these
 
 #### Added features
 
-Sound effect when harvesting the crop with 'interact' button just like the tomato crop
+Sound effect when harvesting the lettuce and tea crops with 'interact' button just like the tomato crop
 
 ## Credits
 
